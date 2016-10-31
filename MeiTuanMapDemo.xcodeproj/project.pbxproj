@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613DD48BDFCAD3AB9CE638F4 /* libPods-MeiTuanMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43707C223C272C19445E4E72 /* libPods-MeiTuanMapDemo.a */; };
+		B9077C201DB4AAF700C49C86 /* PoiResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9077C1E1DB4AAF700C49C86 /* PoiResultCell.m */; };
+		B9077C211DB4AAF700C49C86 /* PoiResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9077C1F1DB4AAF700C49C86 /* PoiResultCell.xib */; };
+		B91BB3731DB8A91F00293683 /* ZGYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B91BB3721DB8A91F00293683 /* ZGYAlertView.m */; };
+		B98BF2FA1D9B59A100FA4E12 /* PoiResultListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98BF2F91D9B59A100FA4E12 /* PoiResultListViewController.m */; };
+		B98BF2FC1D9B783700FA4E12 /* poi_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B98BF2FB1D9B783700FA4E12 /* poi_2.png */; };
+		B98BF3011D9BA2EE00FA4E12 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B98BF2FF1D9BA2EE00FA4E12 /* point@2x.png */; };
+		B98BF3021D9BA2EE00FA4E12 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = B98BF3001D9BA2EE00FA4E12 /* point.png */; };
+		B98BF3051D9BA9D500FA4E12 /* PoiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B98BF3041D9BA9D500FA4E12 /* PoiModel.m */; };
+		B9AD76221D9A345800B282B3 /* poi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AD76211D9A345800B282B3 /* poi_1.png */; };
+		B9AD76241D9A410200B282B3 /* poi.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AD76231D9A410200B282B3 /* poi.png */; };
+		B9AD76261D9A418800B282B3 /* dingwei.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AD76251D9A418800B282B3 /* dingwei.png */; };
+		B9F72FAE1D952AA200CEA21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FAD1D952AA200CEA21B /* main.m */; };
+		B9F72FB11D952AA200CEA21B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FB01D952AA200CEA21B /* AppDelegate.m */; };
+		B9F72FB41D952AA200CEA21B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FB31D952AA200CEA21B /* ViewController.m */; };
+		B9F72FB71D952AA200CEA21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F72FB51D952AA200CEA21B /* Main.storyboard */; };
+		B9F72FB91D952AA200CEA21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F72FB81D952AA200CEA21B /* Assets.xcassets */; };
+		B9F72FBC1D952AA200CEA21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F72FBA1D952AA200CEA21B /* LaunchScreen.storyboard */; };
+		B9F72FC71D952AA200CEA21B /* MeiTuanMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FC61D952AA200CEA21B /* MeiTuanMapDemoTests.m */; };
+		B9F72FD21D952AA200CEA21B /* MeiTuanMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FD11D952AA200CEA21B /* MeiTuanMapDemoUITests.m */; };
+		B9F72FE41D952FA300CEA21B /* ZGYDragMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72FE31D952FA300CEA21B /* ZGYDragMapVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9F72FC31D952AA200CEA21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9F72FA11D952AA200CEA21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F72FA81D952AA200CEA21B;
+			remoteInfo = MeiTuanMapDemo;
+		};
+		B9F72FCE1D952AA200CEA21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9F72FA11D952AA200CEA21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F72FA81D952AA200CEA21B;
+			remoteInfo = MeiTuanMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43707C223C272C19445E4E72 /* libPods-MeiTuanMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTuanMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531B1309688D934905DECE4B /* Pods-MeiTuanMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanMapDemo/Pods-MeiTuanMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A41A00A32FB3A67E4C4ADAA4 /* Pods-MeiTuanMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanMapDemo/Pods-MeiTuanMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B9077C1D1DB4AAF700C49C86 /* PoiResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiResultCell.h; sourceTree = "<group>"; };
+		B9077C1E1DB4AAF700C49C86 /* PoiResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiResultCell.m; sourceTree = "<group>"; };
+		B9077C1F1DB4AAF700C49C86 /* PoiResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoiResultCell.xib; sourceTree = "<group>"; };
+		B91BB3711DB8A91F00293683 /* ZGYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGYAlertView.h; sourceTree = "<group>"; };
+		B91BB3721DB8A91F00293683 /* ZGYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGYAlertView.m; sourceTree = "<group>"; };
+		B98BF2F81D9B59A100FA4E12 /* PoiResultListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiResultListViewController.h; sourceTree = "<group>"; };
+		B98BF2F91D9B59A100FA4E12 /* PoiResultListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiResultListViewController.m; sourceTree = "<group>"; };
+		B98BF2FB1D9B783700FA4E12 /* poi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_2.png; sourceTree = "<group>"; };
+		B98BF2FF1D9BA2EE00FA4E12 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
+		B98BF3001D9BA2EE00FA4E12 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		B98BF3031D9BA9D500FA4E12 /* PoiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiModel.h; sourceTree = "<group>"; };
+		B98BF3041D9BA9D500FA4E12 /* PoiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiModel.m; sourceTree = "<group>"; };
+		B9AD76211D9A345800B282B3 /* poi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_1.png; sourceTree = "<group>"; };
+		B9AD76231D9A410200B282B3 /* poi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi.png; sourceTree = "<group>"; };
+		B9AD76251D9A418800B282B3 /* dingwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dingwei.png; sourceTree = "<group>"; };
+		B9F72FA91D952AA200CEA21B /* MeiTuanMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F72FAD1D952AA200CEA21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9F72FAF1D952AA200CEA21B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9F72FB01D952AA200CEA21B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9F72FB21D952AA200CEA21B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9F72FB31D952AA200CEA21B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9F72FB61D952AA200CEA21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9F72FB81D952AA200CEA21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9F72FBB1D952AA200CEA21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9F72FBD1D952AA200CEA21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F72FC21D952AA200CEA21B /* MeiTuanMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F72FC61D952AA200CEA21B /* MeiTuanMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanMapDemoTests.m; sourceTree = "<group>"; };
+		B9F72FC81D952AA200CEA21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F72FCD1D952AA200CEA21B /* MeiTuanMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F72FD11D952AA200CEA21B /* MeiTuanMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanMapDemoUITests.m; sourceTree = "<group>"; };
+		B9F72FD31D952AA200CEA21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F72FE21D952FA300CEA21B /* ZGYDragMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGYDragMapVC.h; sourceTree = "<group>"; };
+		B9F72FE31D952FA300CEA21B /* ZGYDragMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGYDragMapVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F72FA61D952AA200CEA21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613DD48BDFCAD3AB9CE638F4 /* libPods-MeiTuanMapDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FBF1D952AA200CEA21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FCA1D952AA200CEA21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B31D53C6543439164CD0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43707C223C272C19445E4E72 /* libPods-MeiTuanMapDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33F0C0935435CEE30168EBBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A41A00A32FB3A67E4C4ADAA4 /* Pods-MeiTuanMapDemo.debug.xcconfig */,
+				531B1309688D934905DECE4B /* Pods-MeiTuanMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9077C1C1DB4AAF700C49C86 /* PoiResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				B9077C1D1DB4AAF700C49C86 /* PoiResultCell.h */,
+				B9077C1E1DB4AAF700C49C86 /* PoiResultCell.m */,
+				B9077C1F1DB4AAF700C49C86 /* PoiResultCell.xib */,
+			);
+			path = PoiResultCell;
+			sourceTree = "<group>";
+		};
+		B91BB3701DB8A91F00293683 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				B91BB3711DB8A91F00293683 /* ZGYAlertView.h */,
+				B91BB3721DB8A91F00293683 /* ZGYAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		B9F72FA01D952AA200CEA21B = {
+			isa = PBXGroup;
+			children = (
+				B9F72FAB1D952AA200CEA21B /* MeiTuanMapDemo */,
+				B9F72FC51D952AA200CEA21B /* MeiTuanMapDemoTests */,
+				B9F72FD01D952AA200CEA21B /* MeiTuanMapDemoUITests */,
+				B9F72FAA1D952AA200CEA21B /* Products */,
+				33F0C0935435CEE30168EBBC /* Pods */,
+				02B31D53C6543439164CD0A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F72FAA1D952AA200CEA21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F72FA91D952AA200CEA21B /* MeiTuanMapDemo.app */,
+				B9F72FC21D952AA200CEA21B /* MeiTuanMapDemoTests.xctest */,
+				B9F72FCD1D952AA200CEA21B /* MeiTuanMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F72FAB1D952AA200CEA21B /* MeiTuanMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B91BB3701DB8A91F00293683 /* AlertView */,
+				B9077C1C1DB4AAF700C49C86 /* PoiResultCell */,
+				B98BF2FF1D9BA2EE00FA4E12 /* point@2x.png */,
+				B98BF3001D9BA2EE00FA4E12 /* point.png */,
+				B9AD76231D9A410200B282B3 /* poi.png */,
+				B9AD76211D9A345800B282B3 /* poi_1.png */,
+				B98BF2FB1D9B783700FA4E12 /* poi_2.png */,
+				B9AD76251D9A418800B282B3 /* dingwei.png */,
+				B9F72FAF1D952AA200CEA21B /* AppDelegate.h */,
+				B9F72FB01D952AA200CEA21B /* AppDelegate.m */,
+				B9F72FB21D952AA200CEA21B /* ViewController.h */,
+				B9F72FB31D952AA200CEA21B /* ViewController.m */,
+				B9F72FE21D952FA300CEA21B /* ZGYDragMapVC.h */,
+				B9F72FE31D952FA300CEA21B /* ZGYDragMapVC.m */,
+				B98BF3031D9BA9D500FA4E12 /* PoiModel.h */,
+				B98BF3041D9BA9D500FA4E12 /* PoiModel.m */,
+				B98BF2F81D9B59A100FA4E12 /* PoiResultListViewController.h */,
+				B98BF2F91D9B59A100FA4E12 /* PoiResultListViewController.m */,
+				B9F72FB51D952AA200CEA21B /* Main.storyboard */,
+				B9F72FB81D952AA200CEA21B /* Assets.xcassets */,
+				B9F72FBA1D952AA200CEA21B /* LaunchScreen.storyboard */,
+				B9F72FBD1D952AA200CEA21B /* Info.plist */,
+				B9F72FAC1D952AA200CEA21B /* Supporting Files */,
+			);
+			path = MeiTuanMapDemo;
+			sourceTree = "<group>";
+		};
+		B9F72FAC1D952AA200CEA21B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9F72FAD1D952AA200CEA21B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9F72FC51D952AA200CEA21B /* MeiTuanMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9F72FC61D952AA200CEA21B /* MeiTuanMapDemoTests.m */,
+				B9F72FC81D952AA200CEA21B /* Info.plist */,
+			);
+			path = MeiTuanMapDemoTests;
+			sourceTree = "<group>";
+		};
+		B9F72FD01D952AA200CEA21B /* MeiTuanMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9F72FD11D952AA200CEA21B /* MeiTuanMapDemoUITests.m */,
+				B9F72FD31D952AA200CEA21B /* Info.plist */,
+			);
+			path = MeiTuanMapDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F72FA81D952AA200CEA21B /* MeiTuanMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F72FD61D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemo" */;
+			buildPhases = (
+				DAB2D9299D4D4BC9A9846A65 /* [CP] Check Pods Manifest.lock */,
+				B9F72FA51D952AA200CEA21B /* Sources */,
+				B9F72FA61D952AA200CEA21B /* Frameworks */,
+				B9F72FA71D952AA200CEA21B /* Resources */,
+				DE72F4C07D436105A824BF1C /* [CP] Embed Pods Frameworks */,
+				7DDF8790DA0A5E41DECB96E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiTuanMapDemo;
+			productName = MeiTuanMapDemo;
+			productReference = B9F72FA91D952AA200CEA21B /* MeiTuanMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9F72FC11D952AA200CEA21B /* MeiTuanMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F72FD91D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemoTests" */;
+			buildPhases = (
+				B9F72FBE1D952AA200CEA21B /* Sources */,
+				B9F72FBF1D952AA200CEA21B /* Frameworks */,
+				B9F72FC01D952AA200CEA21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F72FC41D952AA200CEA21B /* PBXTargetDependency */,
+			);
+			name = MeiTuanMapDemoTests;
+			productName = MeiTuanMapDemoTests;
+			productReference = B9F72FC21D952AA200CEA21B /* MeiTuanMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9F72FCC1D952AA200CEA21B /* MeiTuanMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F72FDC1D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemoUITests" */;
+			buildPhases = (
+				B9F72FC91D952AA200CEA21B /* Sources */,
+				B9F72FCA1D952AA200CEA21B /* Frameworks */,
+				B9F72FCB1D952AA200CEA21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F72FCF1D952AA200CEA21B /* PBXTargetDependency */,
+			);
+			name = MeiTuanMapDemoUITests;
+			productName = MeiTuanMapDemoUITests;
+			productReference = B9F72FCD1D952AA200CEA21B /* MeiTuanMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F72FA11D952AA200CEA21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = 800best;
+				TargetAttributes = {
+					B9F72FA81D952AA200CEA21B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 88NWKS8BU6;
+						ProvisioningStyle = Automatic;
+					};
+					B9F72FC11D952AA200CEA21B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9F72FA81D952AA200CEA21B;
+					};
+					B9F72FCC1D952AA200CEA21B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9F72FA81D952AA200CEA21B;
+					};
+				};
+			};
+			buildConfigurationList = B9F72FA41D952AA200CEA21B /* Build configuration list for PBXProject "MeiTuanMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9F72FA01D952AA200CEA21B;
+			productRefGroup = B9F72FAA1D952AA200CEA21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F72FA81D952AA200CEA21B /* MeiTuanMapDemo */,
+				B9F72FC11D952AA200CEA21B /* MeiTuanMapDemoTests */,
+				B9F72FCC1D952AA200CEA21B /* MeiTuanMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9F72FA71D952AA200CEA21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AD76221D9A345800B282B3 /* poi_1.png in Resources */,
+				B9AD76261D9A418800B282B3 /* dingwei.png in Resources */,
+				B98BF3021D9BA2EE00FA4E12 /* point.png in Resources */,
+				B9AD76241D9A410200B282B3 /* poi.png in Resources */,
+				B9F72FBC1D952AA200CEA21B /* LaunchScreen.storyboard in Resources */,
+				B9F72FB91D952AA200CEA21B /* Assets.xcassets in Resources */,
+				B9077C211DB4AAF700C49C86 /* PoiResultCell.xib in Resources */,
+				B98BF3011D9BA2EE00FA4E12 /* point@2x.png in Resources */,
+				B9F72FB71D952AA200CEA21B /* Main.storyboard in Resources */,
+				B98BF2FC1D9B783700FA4E12 /* poi_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FC01D952AA200CEA21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FCB1D952AA200CEA21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DDF8790DA0A5E41DECB96E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuanMapDemo/Pods-MeiTuanMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB2D9299D4D4BC9A9846A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE72F4C07D436105A824BF1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiTuanMapDemo/Pods-MeiTuanMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F72FA51D952AA200CEA21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F72FE41D952FA300CEA21B /* ZGYDragMapVC.m in Sources */,
+				B9077C201DB4AAF700C49C86 /* PoiResultCell.m in Sources */,
+				B9F72FB41D952AA200CEA21B /* ViewController.m in Sources */,
+				B98BF3051D9BA9D500FA4E12 /* PoiModel.m in Sources */,
+				B9F72FB11D952AA200CEA21B /* AppDelegate.m in Sources */,
+				B98BF2FA1D9B59A100FA4E12 /* PoiResultListViewController.m in Sources */,
+				B91BB3731DB8A91F00293683 /* ZGYAlertView.m in Sources */,
+				B9F72FAE1D952AA200CEA21B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FBE1D952AA200CEA21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F72FC71D952AA200CEA21B /* MeiTuanMapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F72FC91D952AA200CEA21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F72FD21D952AA200CEA21B /* MeiTuanMapDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9F72FC41D952AA200CEA21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9F72FA81D952AA200CEA21B /* MeiTuanMapDemo */;
+			targetProxy = B9F72FC31D952AA200CEA21B /* PBXContainerItemProxy */;
+		};
+		B9F72FCF1D952AA200CEA21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9F72FA81D952AA200CEA21B /* MeiTuanMapDemo */;
+			targetProxy = B9F72FCE1D952AA200CEA21B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9F72FB51D952AA200CEA21B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F72FB61D952AA200CEA21B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9F72FBA1D952AA200CEA21B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F72FBB1D952AA200CEA21B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9F72FD41D952AA200CEA21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9F72FD51D952AA200CEA21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9F72FD71D952AA200CEA21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41A00A32FB3A67E4C4ADAA4 /* Pods-MeiTuanMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 88NWKS8BU6;
+				INFOPLIST_FILE = MeiTuanMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B9F72FD81D952AA200CEA21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531B1309688D934905DECE4B /* Pods-MeiTuanMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 88NWKS8BU6;
+				INFOPLIST_FILE = MeiTuanMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B9F72FDA1D952AA200CEA21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiTuanMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiTuanMapDemo.app/MeiTuanMapDemo";
+			};
+			name = Debug;
+		};
+		B9F72FDB1D952AA200CEA21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiTuanMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiTuanMapDemo.app/MeiTuanMapDemo";
+			};
+			name = Release;
+		};
+		B9F72FDD1D952AA200CEA21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiTuanMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiTuanMapDemo;
+			};
+			name = Debug;
+		};
+		B9F72FDE1D952AA200CEA21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiTuanMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.ios.MeiTuanMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiTuanMapDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F72FA41D952AA200CEA21B /* Build configuration list for PBXProject "MeiTuanMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F72FD41D952AA200CEA21B /* Debug */,
+				B9F72FD51D952AA200CEA21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F72FD61D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F72FD71D952AA200CEA21B /* Debug */,
+				B9F72FD81D952AA200CEA21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F72FD91D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F72FDA1D952AA200CEA21B /* Debug */,
+				B9F72FDB1D952AA200CEA21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F72FDC1D952AA200CEA21B /* Build configuration list for PBXNativeTarget "MeiTuanMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F72FDD1D952AA200CEA21B /* Debug */,
+				B9F72FDE1D952AA200CEA21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F72FA11D952AA200CEA21B /* Project object */;
+}
