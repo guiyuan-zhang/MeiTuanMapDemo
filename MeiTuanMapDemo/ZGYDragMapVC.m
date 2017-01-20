@@ -130,7 +130,11 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)rightBtn:(UIButton *)sender{
-    self.zgyDrapMapBlock(self.poiResultArray[0]);
+    if (self.poiResultArray.count == 0) {
+        self.zgyDrapMapBlock(self.model);
+    }else{
+        self.zgyDrapMapBlock(self.poiResultArray[0]);
+    }
     [self.navigationController popViewControllerAnimated:YES];
 }
 
