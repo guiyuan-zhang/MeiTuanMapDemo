@@ -29,7 +29,7 @@
     [vc setZgyDrapMapBlock:^(PoiModel *model) {
        
         weaSelf.longitudeAndLatitudeLabel.text = [NSString stringWithFormat:@"%lf,%lf",model.lat,model.lon];
-        weaSelf.detailAddressLabel.text = [NSString stringWithFormat:@"%@ %@",model.city,model.address];
+        weaSelf.detailAddressLabel.text = [NSString stringWithFormat:@"%@      %@ %@",model.name,model.city,model.address];
     }];
 }
 

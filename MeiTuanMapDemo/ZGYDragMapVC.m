@@ -32,6 +32,7 @@
 @property (nonatomic,strong)PoiResultListViewController *poiResultVC;
 @property (nonatomic,strong)PoiModel *model;
 @property (nonatomic,strong)NSMutableDictionary *dataDic;
+@property (nonatomic, strong) NSArray *poiResultArray;
 @end
 
 @implementation ZGYDragMapVC
@@ -129,41 +130,13 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)rightBtn:(UIButton *)sender{
-    self.zgyDrapMapBlock(self.model);
+    self.zgyDrapMapBlock(self.poiResultArray[0]);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)currentAddressMsg:(UIButton *)sender{
     [self initLocation];
 }
-//- (void)jiansuo{
-//    BMKGeoCodeSearchOption *geocodeSearchOption = [[BMKGeoCodeSearchOption alloc]init];
-//    geocodeSearchOption.city= @"杭州市";
-//    geocodeSearchOption.address = @"西湖区塘苗路18号华星现代产业园";
-//    BOOL flag = [_geocodesearch geoCode:geocodeSearchOption];
-//    if(flag)
-//    {
-//        NSLog(@"geo检索发送成功");
-//       
-//        
-//        [self.view addSubview:self.mapView];
-//        
-//        
-//        UIImageView *poiView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"poi"]];
-//        poiView.frame = CGRectMake(0, 0, 40, 40);
-//        poiView.center = CGPointMake([UIScreen mainScreen].bounds.size.width/2, 150 - 20);
-//        [self.mapView addSubview:poiView];
-//        _poiView = poiView;
-//
-//        PoiResultListViewController *poiResultVC = (PoiResultListViewController *)self.childViewControllers[0];
-//        self.poiResultVC = poiResultVC;
-//        [self.contentView addSubview:poiResultVC.view];
-//    }
-//    else
-//    {
-//        NSLog(@"geo检索发送失败");
-//    }
-//}
 
 - (UIView *)contentView
 {
@@ -243,6 +216,7 @@
             self.model.lon = poi.pt.longitude;
             [array addObject:self.model];
         }
+        self.poiResultArray = [NSArray arrayWithArray:array];
         self.poiResultVC.resultListArray = [NSArray arrayWithArray:array];
         
     } else if (error == BMK_SEARCH_AMBIGUOUS_ROURE_ADDR){
@@ -251,28 +225,6 @@
         // 各种情况的判断。。。
     }
 }
-
-/**
- *返回地址信息搜索结果
- *@param searcher 搜索对象
- *@param result 搜索结BMKGeoCodeSearch果
- *@param error 错误号，@see BMKSearchErrorCode
- */
-//- (void)onGetGeoCodeResult:(BMKGeoCodeSearch *)searcher result:(BMKGeoCodeResult *)result errorCode:(BMKSearchErrorCode)error
-//{
-//    NSArray* array = [NSArray arrayWithArray:_mapView.annotations];
-//    [_mapView removeAnnotations:array];
-//    array = [NSArray arrayWithArray:_mapView.overlays];
-//    [_mapView removeOverlays:array];
-//    if (error == 0) {
-//        [_mapView setCenterCoordinate:result.location];
-//        BMKPointAnnotation* item = [[BMKPointAnnotation alloc]init];
-//        item.coordinate = result.location;
-//        item.title = result.address;
-//        [_mapView addAnnotation:item];
-//        _mapView.centerCoordinate = result.location;
-//    }
-//}
 
 /**
  *用户位置更新后，会调用此函数
